@@ -1,4 +1,4 @@
-# ADV360-PRO-ZMK
+# ADV360-PRO-ZMK - ICARO
 
 ## Modifying the keymap
 
