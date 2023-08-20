@@ -72,11 +72,11 @@
     };
     backspace_layer {
       bindings = <
-        &trans     &trans &trans &trans &trans &trans  &trans                                                 &trans &trans &trans &trans &trans &trans  &trans
-        &trans     &trans &trans &LPAR &RPAR &trans  &none                                                    &none         &trans &trans &trans &trans  &trans  &trans
-        &trans     &trans &trans &LBRC &RBRC &trans  &none               &trans &trans &trans &trans          &none         &trans &trans &trans &trans  &trans  &trans
-        &trans     &trans &trans &LBKT &RBKT &trans                             &trans &trans                               &trans &trans &trans &trans  &trans  &trans
-        &trans     &trans &trans &trans &trans                    &trans &trans &trans &trans &trans &trans                        &trans &trans &trans  &trans  &trans
+        &trans     &trans &trans &trans   &trans     &trans  &trans                                                 &trans &trans &trans &trans &trans &trans  &trans
+        &trans     &trans &trans &kp LPAR &kp RPAR &trans  &none                                                    &none  &trans &trans &trans &trans &trans  &trans
+        &trans     &trans &trans &kp LBRC &kp RBRC &trans  &none               &trans &trans &trans &trans          &none  &trans &trans &trans &trans &trans  &trans
+        &trans     &trans &trans &kp LBKT &kp RBKT &trans                             &trans &trans                        &trans &trans &trans &trans  &trans &trans
+        &trans     &trans &trans &trans   &trans                        &trans &trans &trans &trans &trans &trans                 &trans &trans &trans  &trans &trans
       >;
     };
   };
