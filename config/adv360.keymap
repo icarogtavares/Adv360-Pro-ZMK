@@ -26,7 +26,7 @@
           compatible = "zmk,behavior-tap-dance";
           label = "TAP_DANCE_BACKSPACE";
           #binding-cells = <0>;
-          tapping-term-ms = <150>;
+          tapping-term-ms = <200>;
           bindings = <&lt BACKSPACE_LAYER BSPC>, <&kp BSPC>;
       };
     };
